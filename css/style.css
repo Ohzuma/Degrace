@@ -971,6 +971,135 @@ position: relative;
 }
 
 
+.history{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    margin-top: 0;
+}
+.history-rh h1, .history-lh h1{
+    font-size: 1.2rem;
+    font-family: popLight;
+    letter-spacing: 1px;
+}
+.history-rh{
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.history-lh{
+    flex: 1 1;  
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.history-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+}
+.history-lh header{
+    display: flex;
+    justify-content: space-between;
+}
+.history-rh header{
+    display: flex;
+    justify-content: space-between;
+}
+.history-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem;
+    background-color: #2C2C38;
+    position: relative;
+}
+.rh-line{
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background-color: #191923;
+    top: 0;
+    right:-1.3rem;
+        /* left: 10rem; */
+    
+}
+.lh-line{
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background-color: #191923;
+    top: 0;
+    right:-1.3rem;
+        /* left: 10rem; */
+    
+}
+.circle{
+    position: absolute;
+       width: 15px;
+    height: 15px;
+    background-color: #1E1E28;
+    border: 3px solid #FFC107;
+    top: 0;
+    right:-1.6rem;
+    border-radius: 50%;
+}
+.history-box header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.history-box header div:nth-of-type(1) h3{
+    font-size: 1rem;
+    font-family: inter;
+    font-weight: 500;
+}
+.history-box header div:nth-of-type(1) span{
+    font-size: 0.8rem;
+    font-family: inter;
+    font-weight: 500;
+    color: #a6a6ae;
+    letter-spacing: 2px;
+}
+.history-box header div:nth-of-type(2){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #20202A;
+  padding: 1rem;
+  width: fit-content;
+  height: 2rem;
+  border-radius: 20px;
+}
+.history-box header div:nth-of-type(2) span{
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    font-family: inter;
+}
+.history-box .content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.history-box .content a{
+    text-decoration: none;
+    color: #848484;
+    font-family: inter;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}
+.history-box .content a:hover{
+    cursor: pointer;
+}
+
 @media(max-width:1284px){
     .middle-container{
         padding: 2rem;
